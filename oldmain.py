@@ -7,7 +7,7 @@ import requests
 
 engine = pyttsx3.init()
 recognizer = sr.Recognizer()
-newsapi = "05c22a7411fa497cb99a53ffa5ed18a7"
+newsapi = "<YOUR API KEY>"
 
 def speak(text):
     engine.say(text)
